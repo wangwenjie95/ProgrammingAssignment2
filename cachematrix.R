@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+##catch the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+##computes the inverse of the matrix
 
 cacheSolve <- function(x, ...) {
   m<-x$getmean()
